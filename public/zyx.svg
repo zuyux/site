@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg1257"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="zyx.svg"
+   inkscape:export-filename="/home/hax/Documents/zuyux/public/zyx__.png"
+   inkscape:export-xdpi="38.400002"
+   inkscape:export-ydpi="38.400002"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1259"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="mm"
+     inkscape:zoom="0.44901281"
+     inkscape:cx="387.51678"
+     inkscape:cy="457.67068"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6831"
+     showguides="true"
+     height="210mm" />
+  <defs
+     id="defs1254">
+    <rect
+       x="-224.35466"
+       y="1199.9915"
+       width="1620.4139"
+       height="338.11801"
+       id="rect3033" />
+    <rect
+       x="117.03331"
+       y="42.700901"
+       width="317.74716"
+       height="199.99547"
+       id="rect3573" />
+    <rect
+       x="70.185471"
+       y="248.26605"
+       width="580.97296"
+       height="230.85728"
+       id="rect3945" />
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="originald"
+       linkedpaths="#g5722,0,1"
+       id="path-effect5968"
+       is_visible="true"
+       lpeversion="0"
+       join="true"
+       close="true"
+       autoreverse="true"
+       applied="false" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       inkscape:original-d="M 0,0"
+       inkscape:path-effect="#path-effect5968"
+       d="M 0,0"
+       id="path5970" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6831"
+       transform="translate(7.859144,-1.9360245)">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#1b1f23;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect1228"
+         width="211.60645"
+         height="211.60645"
+         x="-7.8591442"
+         y="1.9360245"
+         rx="1.7124203" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:37.9189;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path7198"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="236.77824"
+         sodipodi:cy="198.63992"
+         sodipodi:r1="461.81601"
+         sodipodi:r2="104.66054"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="2.6075543"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 636.72264,429.54793 146.69079,251.91355 -163.16615,429.54793 235.68565,93.985089 l 1.0926,-357.161179 91.18004,513.19722 z"
+         transform="matrix(0.15090193,0,0,0.15090193,61.410699,85.386358)"
+         inkscape:transform-center-y="-17.422234"
+         inkscape:export-filename="/home/hax/Documents/zuyux/public/zyx_.png"
+         inkscape:export-xdpi="38.400002"
+         inkscape:export-ydpi="38.400002" />
+    </g>
+  </g>
+</svg>
