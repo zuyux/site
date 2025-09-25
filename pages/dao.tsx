@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Socials from '@/compos/socials'
-import Info from '@/compos/info'
+import Socials from '@/components/socials'
+import Info from '@/components/info'
 
 export default function Dao() {
   return (

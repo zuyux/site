@@ -8,9 +8,6 @@ export default function Socials() {
             <Link href="https://t.me/zuyuxxyz" target="_blank" className="p-4">
                 <Image src="/telegram.svg" height={21} width={21} alt="telegram" />
             </Link>
-            <Link href="https://youtube.com/@zuyux" target="_blank" className="p-4">
-                <Image src="/yt.svg" height={21} width={21} alt="github" />
-            </Link>
             <Link href="https://github.com/zuyux" target="_blank" className="p-4">
                 <Image src="/github.svg" height={21} width={21} alt="youtube" />
             </Link>

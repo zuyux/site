@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Socials from '@/compos/socials'
+import Socials from '@/components/socials'
 
 export default function Info() {
 

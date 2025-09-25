@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Image from 'next/image'
-import Socials from '@/compos/socials'
-import Info from '@/compos/info'
+import Socials from '@/components/socials'
+import Info from '@/components/info'
 
 export default function App() {
   const router = useRouter();

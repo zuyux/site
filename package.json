@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.29.12",
+    "@clerk/nextjs": "^6.32.2",
     "@ethersproject/providers": "^5.7.2",
     "@metamask/sdk-react": "^0.14.1",
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-slot": "^1.0.2",
-    "@vercel/postgres": "^0.5.1",
+    "@vercel/postgres": "^0.10.0",
     "axios": "^1.6.8",
     "body-parser": "^1.20.2",
     "class-variance-authority": "^0.7.0",
@@ -36,7 +36,7 @@
     "typeface-inter": "^3.18.1",
     "typeface-quicksand": "^1.1.13",
     "typeface-roboto": "^1.1.13",
-    "vercel": "^32.3.0"
+    "vercel": "^32.7.2"
   },
   "devDependencies": {
     "@types/mysql": "^2.15.24",
@@ -53,5 +53,13 @@
     "tailwindcss": "^3.3.0",
     "tls": "^0.0.1",
     "typescript": "^5"
+  },
+  "overrides": {
+    "debug": ">=4.3.1",
+    "esbuild": ">=0.24.3",
+    "path-to-regexp": ">=6.3.0",
+    "semver": ">=7.5.2",
+    "tar": ">=6.2.1",
+    "undici": ">=5.28.6"
   }
 }
