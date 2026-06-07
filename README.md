@@ -14,7 +14,7 @@
 
 Nacimos como un proyecto de investigación sobre Ciudades Inteligentes en la Oficina de Tecnologías de la Información de la <a href="https://www.uni.edu.pe/" target="_blank">UNI</a> en Perú. Desde entonces, nos expandimos más allá del campus para experimentar con Bitcoin, L2s, Nostr, ZKPs y herramientas que devuelvan control y privacidad a las personas.
 
-Promovemos la Investigación y Desarrollo en <strong>TI</strong> con un enfoque cypherpunk: sistemas P2P, privacidad por diseño y autonomía tecnológica. Organizamos talleres, eventos y proyectos experimentales abiertos y auditables —software mínimo, reutilizable y resistente a la censura— para ofrecer alternativas concretas frente al creciente control centralizado de los estados-nación.
+Promovemos la Investigación y Desarrollo en <strong>TI</strong> con un enfoque cypherpunk: sistemas P2P, privacidad por diseño y autonomía tecnológica. Organizamos talleres, eventos y proyectos experimentales abiertos y auditables —software mínimo, reutilizable y resistente a la censura— para ofrecer alternativas concretas frente al creciente control centralizado de los estados-nación y corporaciones.
 
 ---
 
