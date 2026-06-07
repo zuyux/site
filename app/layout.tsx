@@ -1,13 +1,52 @@
 import type { Metadata } from 'next'
-import { Inter, Roboto } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'nexu',
-  description: 'club w3d',
+  metadataBase: new URL('https://zuyux.org'),
+  title: { default: 'zuyux', template: '%s | zuyux' },
+  description: 'zuyux es una DAO de investigación en TI en LATAM que crea proyectos descentralizados, comunidades P2P y herramientas de privacidad.',
+  alternates: { canonical: 'https://zuyux.org' },
+  openGraph: {
+    title: 'zuyux',
+    description: 'DAO de investigación TI en LATAM: proyectos abiertos, privacidad digital y autonomía tecnológica.',
+    url: 'https://zuyux.org',
+    siteName: 'zuyux',
+    type: 'website',
+    locale: 'es_PE',
+    images: [
+      {
+        url: '/default.png',
+        width: 512,
+        height: 512,
+        alt: 'zuyux logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'zuyux',
+    description: 'DAO de investigación TI en LATAM: proyectos abiertos, privacidad digital y autonomía tecnológica.',
+    creator: '@zuyuxxyz',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+    },
+  },
+  icons: {
+    icon: '/default.png',
+    shortcut: '/default.png',
+    apple: '/default.png',
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({

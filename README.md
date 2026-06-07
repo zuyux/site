@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<div align="center">
+	<h1>zuyux</h1>
+	<p><strong>Organización Autónoma Descentralizada de Investigación y Desarrollo en TI</strong></p>
+	<p>P2P · Privacidad · Autonomía</p>
+	<br />
+	<a href="https://github.com/zuyux"><img alt="GitHub" src="https://img.shields.io/badge/github-zuyux-181717?logo=github" /></a>
+	<a href="https://x.com/zuyuxxyz"><img alt="X" src="https://img.shields.io/badge/X-@zuyuxxyz-000000?logo=x" /></a>
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Manifiesto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Nacimos como un proyecto de investigación sobre Ciudades Inteligentes en la Oficina de Tecnologías de la Información de la <a href="https://www.uni.edu.pe/" target="_blank">UNI</a> en Perú. Desde entonces, nos expandimos más allá del campus para experimentar con Bitcoin, L2s, Nostr, ZKPs y herramientas que devuelvan control y privacidad a las personas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Promovemos la Investigación y Desarrollo en <strong>TI</strong> con un enfoque cypherpunk: sistemas P2P, privacidad por diseño y autonomía tecnológica. Organizamos talleres, eventos y proyectos experimentales abiertos y auditables —software mínimo, reutilizable y resistente a la censura— para ofrecer alternativas concretas frente al creciente control centralizado de los estados-nación.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## ¿Quieres colaborar?
 
-To learn more about Next.js, take a look at the following resources:
+Únete a nuestra comunidad y participa en el desarrollo de tecnologías abiertas, privadas y descentralizadas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [GitHub](https://github.com/zuyux)
+- [X / Twitter](https://x.com/zuyuxxyz)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
