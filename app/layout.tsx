@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     locale: 'es_PE',
     images: [
       {
-        url: '/default.png',
-        width: 512,
-        height: 512,
-        alt: 'zuyux logo',
+        url: '/zuyux-lab.png',
+        width: 1200,
+        height: 670,
+        alt: 'Zuyux cover',
       },
     ],
   },

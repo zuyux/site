@@ -12,13 +12,12 @@ export default function Home() {
     <main className="bg-[#010101] text-white min-h-screen flex flex-col">
       <div className="relative w-full h-[100vh] sm:h-[100vh] lg:h-[100vh] overflow-hidden">
         <Image
-          src="https://ipfs.io/ipfs/bafybeigocv4ozc6vv3epmg5sjdc3ljmokld3kdrhzdxuduscrwlhpuu6s4"
+          src="/zuyux-lab.png"
           alt="Zuyux hero"
           fill
           sizes="100vw"
           className="object-contain object-center"
           priority
-          unoptimized
         />
       </div>
 
@@ -30,20 +29,22 @@ export default function Home() {
           </div>
 
           <div className='text-center'>
-            <h2 className="text-lg font-semibold">!</h2>
+            <h2 className="text-lg font-semibold">★</h2>
             <ul className="space-y-1 mt-2">
-              <li><Link href="https://bbox.lol" className="text-sm text-zinc-300">bbox</Link></li>
+              
+              <li><Link href="https://utxo.lat/" className="text-sm text-zinc-300">utxo.lat</Link></li>
+              <li><Link href="https://bboxx.app" className="text-sm text-zinc-300">bboxx</Link></li>
               <li><Link href="https://cholo.meme" target='_blank' rel='noopener noreferrer' className="text-sm text-zinc-300">cholo</Link></li>
-              <li><Link href="https://bitdevslima.org" className="text-sm text-zinc-300">bitdevsLIM</Link></li>
+              <li><Link href="https://bitdevslima.org" className="text-sm text-zinc-300">bitdevs lima</Link></li>
               <li><Link href="/metauni" className="text-sm text-zinc-300">metauni</Link></li>
               <li><Link href="/btc-gui" className="text-sm text-zinc-300">bitcoin_gui</Link></li>
             </ul>
           </div>
 
           <div className='text-center sm:text-right'>
-            <h2 className="text-lg font-semibold">?</h2>
+            <h2 className="text-lg font-semibold">!</h2>
             <ul className="space-y-1 mt-2">
-              <li><Link href="/info" className="text-sm text-zinc-300">manifiesto</Link></li>
+              <li><Link href="/manifesto" className="text-sm text-zinc-300">manifesto</Link></li>
             </ul>
           </div>
         </div>

@@ -48,7 +48,7 @@ export default function MetauniClient() {
       </div>
 
       <div>
-        <a href="/info" aria-label="More info">
+        <a href="/manifesto" aria-label="More info">
           <img src="/info.svg" height={21} width={21} alt="info" className="fixed bottom-4 right-4" />
         </a>
       </div>

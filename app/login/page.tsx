@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Login',
-  description: 'Accede a ZUYUX conectando tu wallet Metamask.',
+  description: 'Accede a ZUYUX.',
 }
 
 export default function Login() {
@@ -15,14 +15,11 @@ export default function Login() {
           <Link href="/"><Image src="/nexu.svg" height={18} width={60} alt="nexu-logo" className="mx-auto invert" /></Link>
         </div>
 
-        <div className='block'>
-          <Link href="/go/metamask" className='inline-flex border-2 border-white rounded-full bg-transparent hover:bg-white hover:text-black p-4 items-center justify-center'>
-            <Image src="/mmask.svg" height={28} width={28} alt="metamask" className='inline'/>
-            <span className='sr-only'>Conectar con MetaMask</span>
-          </Link>
+        <div className='block text-center text-zinc-400'>
+          Acceso no disponible.
         </div>
         <div>
-          <Link href="/info">
+          <Link href="/manifesto">
             <Image src="/info.svg" height={21} width={21} alt="info" className='fixed bottom-4 right-4'/>
           </Link>
         </div>
