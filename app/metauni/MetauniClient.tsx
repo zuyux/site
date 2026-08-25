@@ -20,7 +20,7 @@ export default function MetauniClient() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-4">
+    <main className="flex min-h-screen flex-col items-center justify-center px-4 py-14 sm:py-10">
       <div className="absolute left-4 top-4">
         <a href="/" aria-label="Go to homepage">
           <img src="/default.png" height={18} width={18} alt="zuyux logo" className="mx-auto" />
@@ -28,9 +28,9 @@ export default function MetauniClient() {
       </div>
 
       <div className="flex w-full flex-col items-center gap-4">
-        <div className="flex flex-col items-center gap-2 text-center sm:flex-row sm:text-left">
-          <button onClick={enterFullscreen} className="rounded bg-white/5 px-4 py-2 hover:bg-white/10">Enter Fullscreen</button>
-          <p className="text-sm text-zinc-400">If the embed requests permissions (camera/mic), please allow them in your browser.</p>
+        <div className="flex w-full max-w-5xl flex-col items-center gap-2 text-center sm:flex-row sm:justify-between sm:text-left">
+          <button onClick={enterFullscreen} className="rounded bg-white/5 px-4 py-2 text-sm hover:bg-white/10 sm:text-base">Enter Fullscreen</button>
+          <p className="max-w-2xl text-sm text-zinc-400">If the embed requests permissions (camera/mic), please allow them in your browser.</p>
         </div>
 
         <div className="w-full max-w-5xl">
@@ -42,7 +42,7 @@ export default function MetauniClient() {
             allow="camera; fullscreen; autoplay; display-capture; microphone; clipboard-write"
             allowFullScreen
             loading="lazy"
-            className="border-0 rounded"
+            className="h-[70vh] min-h-[420px] rounded border-0 sm:h-[720px]"
           />
         </div>
       </div>

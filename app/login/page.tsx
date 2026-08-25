@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Login() {
 
   return (
-      <main className="flex flex-col items-center justify-center min-h-screen">
+      <main className="flex min-h-screen flex-col items-center justify-center px-4 py-12 text-center">
         <div className='fixed top-4 left-4'>
           <Link href="/"><Image src="/nexu.svg" height={18} width={60} alt="nexu-logo" className="mx-auto invert" /></Link>
         </div>

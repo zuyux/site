@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 
 export default function Unit() {
   return (
-    <main className='flex flex-col items-center justify-center min-h-screen pb-24'>
-        <div className='rounded-3xl p-8 mb-20 lg:max-w-md text-2xl mt-8 border-[1px] border-white'>
-        <div className='block mt-12'>
+    <main className='flex min-h-screen flex-col items-center justify-center px-4 py-10 sm:px-6'>
+        <div className='mb-12 mt-4 w-full max-w-md rounded-2xl border border-white p-5 text-base leading-7 sm:mb-20 sm:mt-8 sm:rounded-3xl sm:p-8 sm:text-xl sm:leading-8 lg:text-2xl'>
+        <div className='block mt-8 sm:mt-12'>
             <Link href="/"><Image src="/zuyux.svg" height={30} width={72} alt="ZUYUX-logo" className="mx-auto" /></Link>
           </div><br/>
         <p>
@@ -25,7 +25,7 @@ export default function Unit() {
                 Contrato UNIT</Link>
         <div className='mb-6'>
           <label htmlFor='unit-contract' className='sr-only'>Dirección del contrato UNIT</label>
-          <input id='unit-contract' value="0x922B38b1f36ABc96f4BA8ba1321FF0253Af79d03" className='p-2 text-zinc-900 rounded-full text-sm pl-4 pr-4 w-full text-center' readOnly />
+          <input id='unit-contract' value="0x922B38b1f36ABc96f4BA8ba1321FF0253Af79d03" className='w-full rounded-full p-2 px-4 text-center text-xs text-zinc-900 sm:text-sm' readOnly />
         </div>
         <p>
           Si te interesa colaborar en cualquiera de las tareas relacionadas con el desarrollo de ZUYUX, no dudes en ponerte en contacto enviándonos un mensaje a <Link href="mailto:40230@pm.me" className='underline'>40230@pm.me</Link>

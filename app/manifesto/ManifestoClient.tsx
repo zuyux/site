@@ -17,7 +17,7 @@ export default function ManifestoClient({
   const t = translations[locale]
 
   return (
-    <main className="min-h-screen flex items-center justify-center py-12">
+    <main className="flex min-h-screen items-center justify-center px-4 py-16 sm:px-6 sm:py-12">
       <label className="fixed right-4 top-4 z-50">
         <span className="sr-only">Language</span>
         <select
@@ -34,15 +34,15 @@ export default function ManifestoClient({
         </select>
       </label>
 
-      <div className="w-full max-w-3xl bg-[#000]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-10">
+      <div className="w-full max-w-3xl rounded-xl bg-[#000]/60 p-5 backdrop-blur-sm sm:rounded-2xl sm:p-10">
         <header className="mb-6">
           <Link href="/">
-            <h1 className="text-2xl sm:text-3xl font-bold">manifesto</h1>
+            <h1 className="text-2xl font-bold sm:text-3xl">manifesto</h1>
           </Link>
           <p className="text-sm text-zinc-400 mt-1">{t.organization}</p>
         </header>
 
-        <section className="text-lg leading-relaxed text-zinc-200 space-y-4">
+        <section className="space-y-4 text-base leading-7 text-zinc-200 sm:text-lg sm:leading-relaxed">
           <p>
             {t.introBeforeUni}
             <a
@@ -88,7 +88,7 @@ export default function ManifestoClient({
           </div>
         </nav>
 
-        <section className="mt-10 space-y-4 text-lg leading-relaxed text-zinc-200">
+        <section className="mt-10 space-y-4 text-base leading-7 text-zinc-200 sm:text-lg sm:leading-relaxed">
           <h2 className="text-2xl font-bold">{t.title}</h2>
           {t.paragraphs.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>

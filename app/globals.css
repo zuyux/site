@@ -19,9 +19,13 @@
 body {  
   background: #000;
   color:#f1f1f1;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   overflow-x: hidden;
+}
+
+main {
+  overflow-wrap: anywhere;
 }
 
 ::-webkit-scrollbar{width:10px;background:transparent;border-radius:10px;}

@@ -46,19 +46,19 @@ const Subscribe: React.FC<SubscribeProps> = ({ isOpen, onClose }) => {
   }
 
   return (
-    <div id="modal-container" className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={handleOutsideClick}>
-      <div className="bg-black rounded-lg w-full max-w-md text-white relative p-4" onClick={(e) => e.stopPropagation()}>
+    <div id="modal-container" className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 px-4 py-6" onClick={handleOutsideClick}>
+      <div className="relative w-full max-w-md rounded-lg bg-black p-3 text-white sm:p-4" onClick={(e) => e.stopPropagation()}>
         <button onClick={onClose} className="absolute top-2 right-2 text-2xl text-white hover:text-gray-500">×</button>
-        <form onSubmit={handleSub} className="bg-[#f5f5f5] p-6 rounded-lg">
+        <form onSubmit={handleSub} className="rounded-lg bg-[#f5f5f5] p-4 sm:p-6">
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
             placeholder="correo@electroni.co"
-            className="w-full px-4 py-2 mb-4 rounded-lg text-[18px] text-gray-900 bg-transparent outline-none border-[1px] border-gray-300 focus:border-blue-500"
+            className="mb-4 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2 text-base text-gray-900 outline-none focus:border-blue-500 sm:text-[18px]"
           />
-          <button type="submit" className="border-[1px] border-white text-[18px] bg-[#f23e5a] text-white p-4 rounded-lg w-full hover:bg-white hover:text-black mt-4 backdrop-blur-5" disabled={loading}>
+          <button type="submit" className="mt-4 w-full rounded-lg border border-white bg-[#f23e5a] p-3 text-base text-white hover:bg-white hover:text-black sm:p-4 sm:text-[18px]" disabled={loading}>
             {loading ? '...' : 'Suscribirme'}
           </button>
         </form>
