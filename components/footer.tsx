@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="w-full py-8 px-4 sm:py-12 sm:px-8 my-8">
+    <footer className="w-full py-8 px-4 sm:py-12 sm:px-8 my-8 [&_a]:uppercase [&_a]:[letter-spacing:5px]">
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         <div className="text-center sm:text-left">
-          <Link href="/"><h2 className="text-lg font-semibold">zuyux</h2></Link>
+          <Link href="/"><h1 className="text-sm font-semibold">zuyux</h1></Link>
           <p className="text-sm text-zinc-300">IT R&amp;D LAB</p>
         </div>
 
@@ -17,6 +17,7 @@ export function Footer() {
             <li><Link href="/projects/cholo" className="text-sm text-zinc-300">cholo</Link></li>
             <li><Link href="/projects/bitdevs-lima" className="text-sm text-zinc-300">bitdevs lima</Link></li>
             <li><Link href="/btc-gui" className="text-sm text-zinc-300">bitcoin_gui</Link></li>
+            <li><Link href="/projects/bcyx-protocol" className="text-sm text-zinc-300">bcyx.network</Link></li>
           </ul>
         </div>
 

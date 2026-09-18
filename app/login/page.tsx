@@ -1,11 +1,14 @@
-import type { Metadata } from 'next'
+import { pageMetadata } from '@/lib/seo'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: 'Login',
   description: 'Accede a ZUYUX.',
-}
+  path: '/login',
+  locale: 'es_PE',
+  noIndex: true,
+})
 
 export default function Login() {
 

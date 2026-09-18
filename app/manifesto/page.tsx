@@ -1,19 +1,17 @@
-import type { Metadata } from 'next'
+import { pageMetadata } from '@/lib/seo'
 import { headers } from 'next/headers'
 
 import ManifestoClient from './ManifestoClient'
 import { translations, type Locale } from './content'
 
-export const metadata: Metadata = {
-  title: 'manifesto',
-  description: translations.en.metaDescription,
-  alternates: {
-    languages: {
-      en: '/manifesto',
-      pt: '/manifesto',
-      es: '/manifesto',
-    },
-  },
+export function generateMetadata() {
+  const locale = getLocale()
+  return pageMetadata({
+    title: 'Manifesto',
+    description: translations[locale].metaDescription,
+    path: '/manifesto',
+    locale: { en: 'en_US', es: 'es_PE', pt: 'pt_BR' }[locale],
+  })
 }
 
 function getLocale(): Locale {

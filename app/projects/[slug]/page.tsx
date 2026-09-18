@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMetadata } from '@/lib/seo'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ExternalLink, Github } from 'lucide-react'
@@ -20,18 +21,14 @@ export function generateMetadata({ params }: ProjectPageProps): Metadata {
   const project = getProject(params.slug)
 
   if (!project) {
-    return {
-      title: 'Project',
-    }
+    notFound()
   }
 
-  return {
+  return pageMetadata({
     title: project.name,
     description: project.summary,
-    alternates: {
-      canonical: `/projects/${project.slug}`,
-    },
-  }
+    path: `/projects/${project.slug}`,
+  })
 }
 
 export default function ProjectPage({ params }: ProjectPageProps) {
@@ -79,26 +76,18 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 <Github size={16} aria-hidden="true" />
                 Repository
               </Link>
+              {project.docs && (
+                <Link
+                  href={project.docs}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 border border-zinc-700 px-4 py-2 text-sm font-semibold text-zinc-100 transition hover:border-zinc-300"
+                >
+                  <ExternalLink size={16} aria-hidden="true" />
+                  Documentation
+                </Link>
+              )}
             </div>
-
-            {project.alternateSites ? (
-              <p className="mt-4 text-sm text-zinc-500">
-                Also listed: {' '}
-                {project.alternateSites.map((site, index) => (
-                  <span key={site}>
-                    <Link
-                      href={site}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-zinc-300 underline underline-offset-4 hover:text-white"
-                    >
-                      {site.replace('https://', '')}
-                    </Link>
-                    {index < project.alternateSites!.length - 1 ? ', ' : ''}
-                  </span>
-                ))}
-              </p>
-            ) : null}
           </div>
 
           <aside className="border-t border-zinc-800 pt-6 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">

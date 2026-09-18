@@ -7,6 +7,7 @@ export type Project = {
   highlights: string[]
   repo: string
   site: string
+  docs?: string
   alternateSites?: string[]
   language: string
   topics: string[]
@@ -14,6 +15,29 @@ export type Project = {
 }
 
 export const projects: Project[] = [
+  {
+    slug: 'bcyx-protocol',
+    name: 'BCYX Protocol',
+    eyebrow: 'Private cross-chain coordination',
+    summary: 'A general cross-chain protocol for confidential coordination and settlement, designed to make verification public while keeping execution details private.',
+    description: [
+      'BCYX explores how assets can move between chains without publishing the full transaction graph. Its design combines cryptographic commitments, zero-knowledge proofs, and batched verification to coordinate settlement while keeping participants, amounts, and routes confidential.',
+      'The BCYX-SWAP concept focuses on exchanging two assets from different chains, i.e. BTC/ETH or BTC/SOL. Swap intents become commitments, private pools match compatible intents, and aggregated proofs establish that settlement conditions are met. Chain-specific executors then finalize the exchange or follow timeout and refund rules.',
+      'The broader design supports selective disclosure of specific facts without exposing the whole transaction history, with potential applications in treasury routing and oracle coordination. BCYX remains in research and pilot development; its architecture and implementation choices are still evolving.',
+    ],
+    highlights: [
+      'Commitments conceal swap details; nullifiers prevent a commitment from being used twice.',
+      'Batch proof aggregation aims to reduce on-chain verification work across many swaps.',
+      'Bitcoin anchoring provides an auditable record of commitments and settlement checkpoints.',
+      'Settlement depends on the proof system, adapters, and finality assumptions of the participating chains.',
+    ],
+    repo: 'https://github.com/bcyx-protocol',
+    site: 'https://bcyx.network',
+    docs: 'https://github.com/bcyx-protocol/docs',
+    language: 'Rust / TypeScript (proposed tooling)',
+    topics: ['bitcoin', 'privacy', 'zero-knowledge', 'interoperability', 'DLT'],
+    status: 'Research / Pilot phase',
+  },
   {
     slug: 'utxo-lat',
     name: 'utxo.lat',

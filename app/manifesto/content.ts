@@ -29,7 +29,7 @@ export const translations: Record<
     metaDescription:
       'ZUYUX manifesto: cypherpunk vision, privacy by design, P2P spaces, and technological autonomy.',
     organization:
-      'Decentralized Autonomous Organization for IT Research and Development - P2P · Privacy · Autonomy',
+      'Laboratory for IT Research and Development - P2P · Privacy · Autonomy',
     introBeforeUni:
       'We began as a Smart Cities research project in the Information Technology Office at ',
     introAfterUni:

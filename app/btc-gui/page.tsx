@@ -1,12 +1,14 @@
-import type { Metadata } from 'next'
+import { pageMetadata } from '@/lib/seo'
 
 import { Footer } from '@/components/footer'
 import { BtcGuiGallery } from './BtcGuiGallery'
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: 'Bitcoin Core GUI',
   description: 'Bitcoin Core GUI concept by ZUYUX: a calmer visual direction for the everyday Bitcoin node and wallet experience.',
-}
+  path: '/btc-gui',
+  locale: 'en_US',
+})
 
 export default function BtcGuiPage() {
   const images = [

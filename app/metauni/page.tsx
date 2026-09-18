@@ -1,10 +1,12 @@
-import type { Metadata } from 'next'
+import { pageMetadata } from '@/lib/seo'
 import MetauniClient from './MetauniClient'
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: 'META-UNI',
-  description: 'META-UNI: espacio virtual de ZUYUX para explorar entornos inmersivos y colaboración en metaverso.',
-}
+  description: 'Explore META-UNI, the Zuyux virtual space for immersive environments and collaboration in the metaverse.',
+  path: '/metauni',
+  locale: 'en_US',
+})
 
 export default function MetauniPage() {
   return <MetauniClient />
